@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T03:28:39 PDT" name="Suite" finished-at="2023-07-06T03:31:12 PDT" duration-ms="153707">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T03:28:39 PDT" name="Test" finished-at="2023-07-06T03:31:12 PDT" duration-ms="153707">
+      <class name="PBPomClassTest1.TestClass1">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:28:39 PDT" name="OpenBrowser" finished-at="2023-07-06T03:29:43 PDT" duration-ms="64218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="LoginTOApp()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:29:43 PDT" name="LoginTOApp" finished-at="2023-07-06T03:29:51 PDT" duration-ms="8259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method signature="verifyFullName()[pri:1, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:29:51 PDT" name="verifyFullName" finished-at="2023-07-06T03:30:15 PDT" duration-ms="23597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFullName -->
+        <test-method is-config="true" signature="LogOutfromApp()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:30:15 PDT" name="LogOutfromApp" finished-at="2023-07-06T03:30:27 PDT" duration-ms="12017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutfromApp -->
+        <test-method is-config="true" signature="ssOfFailedTc(org.testng.ITestResult)[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:30:27 PDT" name="ssOfFailedTc" finished-at="2023-07-06T03:30:27 PDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFullName status=SUCCESS method=TestClass1.verifyFullName()[pri:1, instance:PBPomClassTest1.TestClass1@2ea41516] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssOfFailedTc -->
+        <test-method is-config="true" signature="LoginTOApp()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:30:27 PDT" name="LoginTOApp" finished-at="2023-07-06T03:30:50 PDT" duration-ms="22816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method signature="GetTextFromMypolicy()[pri:2, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:30:50 PDT" name="GetTextFromMypolicy" finished-at="2023-07-06T03:31:01 PDT" duration-ms="10957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTextFromMypolicy -->
+        <test-method is-config="true" signature="LogOutfromApp()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:31:01 PDT" name="LogOutfromApp" finished-at="2023-07-06T03:31:10 PDT" duration-ms="9519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutfromApp -->
+        <test-method is-config="true" signature="ssOfFailedTc(org.testng.ITestResult)[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:31:10 PDT" name="ssOfFailedTc" finished-at="2023-07-06T03:31:10 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTextFromMypolicy status=SUCCESS method=TestClass1.GetTextFromMypolicy()[pri:2, instance:PBPomClassTest1.TestClass1@2ea41516] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssOfFailedTc -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:PBPomClassTest1.TestClass1@2ea41516]" started-at="2023-07-06T03:31:10 PDT" name="ClosedBrowser" finished-at="2023-07-06T03:31:12 PDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- PBPomClassTest1.TestClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

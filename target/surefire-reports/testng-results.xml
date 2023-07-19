@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T03:51:55 PDT" name="Suite" finished-at="2023-07-06T03:53:18 PDT" duration-ms="83177">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T03:51:55 PDT" name="Test" finished-at="2023-07-06T03:53:18 PDT" duration-ms="83177">
+      <class name="PBPomClassTest1.TestClass1">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:51:55 PDT" name="OpenBrowser" finished-at="2023-07-06T03:52:10 PDT" duration-ms="14927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="LoginTOApp()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:52:10 PDT" name="LoginTOApp" finished-at="2023-07-06T03:52:21 PDT" duration-ms="10473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method signature="verifyFullName()[pri:1, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:52:21 PDT" name="verifyFullName" finished-at="2023-07-06T03:52:39 PDT" duration-ms="18861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFullName -->
+        <test-method is-config="true" signature="LogOutfromApp()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:52:39 PDT" name="LogOutfromApp" finished-at="2023-07-06T03:52:51 PDT" duration-ms="11311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutfromApp -->
+        <test-method is-config="true" signature="ssOfFailedTc(org.testng.ITestResult)[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:52:51 PDT" name="ssOfFailedTc" finished-at="2023-07-06T03:52:51 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFullName status=SUCCESS method=TestClass1.verifyFullName()[pri:1, instance:PBPomClassTest1.TestClass1@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssOfFailedTc -->
+        <test-method is-config="true" signature="LoginTOApp()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:52:51 PDT" name="LoginTOApp" finished-at="2023-07-06T03:53:01 PDT" duration-ms="10219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOApp -->
+        <test-method signature="GetTextFromMypolicy()[pri:2, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:53:01 PDT" name="GetTextFromMypolicy" finished-at="2023-07-06T03:53:04 PDT" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTextFromMypolicy -->
+        <test-method is-config="true" signature="LogOutfromApp()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:53:04 PDT" name="LogOutfromApp" finished-at="2023-07-06T03:53:16 PDT" duration-ms="12347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutfromApp -->
+        <test-method is-config="true" signature="ssOfFailedTc(org.testng.ITestResult)[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:53:16 PDT" name="ssOfFailedTc" finished-at="2023-07-06T03:53:16 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTextFromMypolicy status=SUCCESS method=TestClass1.GetTextFromMypolicy()[pri:2, instance:PBPomClassTest1.TestClass1@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssOfFailedTc -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:PBPomClassTest1.TestClass1@645aa696]" started-at="2023-07-06T03:53:16 PDT" name="ClosedBrowser" finished-at="2023-07-06T03:53:18 PDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- PBPomClassTest1.TestClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2023-07-06T03:51:02 PDT" name="multibrowsing" finished-at="2023-07-06T03:51:55 PDT" duration-ms="52826">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T03:51:02 PDT" name="Test2" finished-at="2023-07-06T03:51:55 PDT" duration-ms="52826">
+      <class name="PB_module1_profile_Test.Test_POM_DDF_TestNG">
+        <test-method is-config="true" signature="OpenBrwoser(java.lang.String)[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b]" started-at="2023-07-06T03:51:02 PDT" name="OpenBrwoser" finished-at="2023-07-06T03:51:10 PDT" duration-ms="7704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrwoser -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b]" started-at="2023-07-06T03:51:10 PDT" name="LoginToApp" finished-at="2023-07-06T03:51:27 PDT" duration-ms="17145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="VerifyFullName()[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b]" started-at="2023-07-06T03:51:27 PDT" name="VerifyFullName" finished-at="2023-07-06T03:51:52 PDT" duration-ms="24450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFullName -->
+        <test-method is-config="true" signature="LogOutFromApp(org.testng.ITestResult)[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b]" started-at="2023-07-06T03:51:52 PDT" name="LogOutFromApp" finished-at="2023-07-06T03:51:52 PDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFullName status=SUCCESS method=Test_POM_DDF_TestNG.VerifyFullName()[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFromApp -->
+        <test-method is-config="true" signature="ClosedBrowser()[pri:0, instance:PB_module1_profile_Test.Test_POM_DDF_TestNG@2af004b]" started-at="2023-07-06T03:51:52 PDT" name="ClosedBrowser" finished-at="2023-07-06T03:51:55 PDT" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosedBrowser -->
+      </class> <!-- PB_module1_profile_Test.Test_POM_DDF_TestNG -->
+    </test> <!-- Test2 -->
+  </suite> <!-- multibrowsing -->
+</testng-results>
